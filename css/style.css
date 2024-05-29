@@ -1,0 +1,154 @@
+/*font online*/
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*lista del nav*/
+nav ul li{margin: 10px;
+} 
+
+nav ul li a:hover {
+color: rgb(91, 83, 42)
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul{list-style-type:none;}
+
+nav {display:flex;
+align-items: center;
+position: sticky;
+top:10px;
+font-family: 'Bebas Neue';
+background-color: rgb(250, 255, 177);
+z-index: 1;
+}
+
+nav .small-logo{
+width: 50px;
+height: auto;}
+
+nav ul {display:flex;}
+
+/*texto de paginas*/
+  h1 {
+    font-family: 'Londrina Sketch';
+    color: rgb(82, 82, 82);
+    background-color: rgb(250, 255, 177);
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: 85px;
+    z-index: -1;
+}
+
+h2 {
+    font-family: 'Londrina Sketch';
+    color: rgb(82, 82, 82);
+    background-color: rgb(250, 255, 177);
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Caveat';
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+  font-family: 'Caveat';
+  text-align: center;
+  font-size: 25px
+}
+
+/*alineacion en paginas*/
+
+/*flex home*/
+
+/*.home-menu {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-menu .home-interno h3 {
+  text-align: top;
+  position: relative;
+  bottom: 70px;
+}
+
+/*grid home*/
+
+.home-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5,128px);
+}
+.home-menu .home-interno h1 {
+  grid-row: 2 / 3;
+  text-align: top;
+}
+
+.venom {
+  grid-column: 2 / 3;
+}
+
+/*flex  commission*/
+
+/*h4 .container-com {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center ;
+}
+
+/*grid commission*/
+
+.grid-container-com {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat (3,1fr);
+
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.grid-item-com1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+
+/*flex work*/
+
+h4 .container-work {display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center ;
+}
+
+h4 .container-work .item {
+ margin-bottom: 40px;
+}
+
+/*flex contact*/
+
+.contact-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items:center
+}
+
+.logo-contact {
+  width: 60%; 
+  height: auto;
+  margin-top: 40px;
+}
+
+
